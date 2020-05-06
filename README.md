@@ -16,11 +16,11 @@ $ git clone https://github.com/Your_Username/budget.git
 ```
 Once you have cloned the `budget` repository in Github, move to that folder first using change directory command on Linux, Windows and Mac.
 ```sh
-$ cd musicApp
-# This will change directory to a folder musicApp
+$ cd budget
+# This will change directory to a folder budget
 ```
 ### 3. Ready Steady Go... :turtle: :rabbit2:
-Once you have completed these steps, you are ready to start contributing by checking our `CSoC` Issues and creating [pull requests](https://github.com/cu-coders/musicApp/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `CSoC` Issues and creating [pull requests](https://github.com/cu-coders/budget/pulls).
 
 ### 4. Create a pull request :bangbang:
 Make the necessary changes in your code and push it to Github:octocat:
