@@ -455,3 +455,27 @@ var controller = (function(budgetCtrl, UICtrl) {
 
 
 controller.init();
+
+//---------------------------------------------------------------
+//SOUND EFFECTS
+
+document.querySelector("select.add__type").addEventListener('click',handleDropClick);
+
+function handleDropClick()
+{
+    var audio = new Audio("Sounds/mouseclick.wav");
+    audio.play();
+}
+
+document.querySelector("button .ion-ios-checkmark-outline").addEventListener('click',handleTickClick);
+
+function handleTickClick()
+{
+    var audio = new Audio("Sounds/tick.mp3");
+    audio.play();
+}
+
+//--------------------------------------------------------------
+
+
+
